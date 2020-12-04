@@ -5,7 +5,7 @@ rem Created by Grigore Stefan <g_stefan@yahoo.com>
 
 SETLOCAL ENABLEDELAYEDEXPANSION
 
-echo -^> git-release-check quantum-script-extension-sha512
+echo -^> github-release-check quantum-script-extension-sha512
 
 set PROJECT=quantum-script-extension-sha512
 if not exist source\%PROJECT%.version.ini echo Error - no version & exit 1
