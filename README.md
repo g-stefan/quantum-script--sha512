@@ -1,8 +1,10 @@
 # Quantum Script Extension SHA512
 
-SHA512;\
-SHA512.hash(str);\
+```javascript
+SHA512;
+SHA512.hash(str);
 SHA512.hashToBuffer(str);
+```
 
 ## License
 
