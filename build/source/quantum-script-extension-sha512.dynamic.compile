@@ -1,6 +1,6 @@
 --dll qse-sha512
 --project-base=quantum-script-extension-sha512
---source-is-separate
+--build-include
 --dll-no-version
 --use-project=quantum-script
 --use-project=qse-buffer
