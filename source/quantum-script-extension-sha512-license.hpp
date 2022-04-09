@@ -11,7 +11,7 @@
 #define QUANTUM_SCRIPT_EXTENSION_SHA512_LICENSE_HPP
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_SHA512__EXPORT_HPP
-#include "quantum-script-extension-sha512--export.hpp"
+#	include "quantum-script-extension-sha512--export.hpp"
 #endif
 
 namespace Quantum {

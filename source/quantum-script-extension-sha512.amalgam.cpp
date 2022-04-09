@@ -12,6 +12,5 @@
 #include "quantum-script-extension-sha512-license.cpp"
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_SHA512_NO_VERSION
-#include "quantum-script-extension-sha512-version.cpp"
+#	include "quantum-script-extension-sha512-version.cpp"
 #endif
-

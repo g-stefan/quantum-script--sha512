@@ -14,7 +14,7 @@
 #include "quantum-script-extension-sha512-license.hpp"
 #include "quantum-script-extension-sha512.hpp"
 #ifndef QUANTUM_SCRIPT_EXTENSION_SHA512_NO_VERSION
-#include "quantum-script-extension-sha512-version.hpp"
+#	include "quantum-script-extension-sha512-version.hpp"
 #endif
 
 #include "quantum-script-variablestring.hpp"
@@ -52,7 +52,6 @@ namespace Quantum {
 					executive->registerInternalExtension("SHA512", initExecutive);
 				};
 
-
 				void initExecutive(Executive *executive, void *extensionId) {
 
 					String info = "SHA512\r\n";
@@ -81,4 +80,3 @@ extern "C" QUANTUM_SCRIPT_EXTENSION_SHA512_EXPORT void quantumScriptExtension(Qu
 	Quantum::Script::Extension::SHA512::initExecutive(executive, extensionId);
 };
 #endif
-

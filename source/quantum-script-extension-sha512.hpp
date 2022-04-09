@@ -11,23 +11,23 @@
 #define QUANTUM_SCRIPT_EXTENSION_SHA512_HPP
 
 #ifndef QUANTUM_SCRIPT_HPP
-#include "quantum-script.hpp"
+#	include "quantum-script.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_SHA512__EXPORT_HPP
-#include "quantum-script-extension-sha512--export.hpp"
+#	include "quantum-script-extension-sha512--export.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_SHA512_COPYRIGHT_HPP
-#include "quantum-script-extension-sha512-copyright.hpp"
+#	include "quantum-script-extension-sha512-copyright.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_SHA512_LICENSE_HPP
-#include "quantum-script-extension-sha512-license.hpp"
+#	include "quantum-script-extension-sha512-license.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_SHA512_VERSION_HPP
-#include "quantum-script-extension-sha512-version.hpp"
+#	include "quantum-script-extension-sha512-version.hpp"
 #endif
 
 namespace Quantum {
@@ -46,4 +46,3 @@ namespace Quantum {
 };
 
 #endif
-
