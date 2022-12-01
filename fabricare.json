@@ -1,0 +1,18 @@
+{
+	"project": {
+		"name":"quantum-script--sha512",
+		"type":"xyo-cpp-project",
+		"make" : "lib-and-dll",
+		"SPDX-License-Identifier": "MIT",
+		"sourcePath" : "XYO/QuantumScript.Extension/SHA512",
+		"testSource" : [
+			"test.01"
+		],
+		"dependency" : [
+			"quantum-script",
+			"quantum-script--console",
+			"quantum-script--buffer",
+			"xyo-cryptography"
+		]
+	}
+}
