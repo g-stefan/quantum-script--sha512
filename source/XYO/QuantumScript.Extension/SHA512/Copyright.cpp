@@ -13,7 +13,6 @@ namespace XYO::QuantumScript::Extension::SHA512::Copyright {
 	static const char *publisher_ = XYO_QUANTUMSCRIPT_EXTENSION_SHA512_PUBLISHER;
 	static const char *company_ = XYO_QUANTUMSCRIPT_EXTENSION_SHA512_COMPANY;
 	static const char *contact_ = XYO_QUANTUMSCRIPT_EXTENSION_SHA512_CONTACT;
-	static const char *fullCopyright_ = XYO_QUANTUMSCRIPT_EXTENSION_SHA512_FULL_COPYRIGHT;
 
 	const char *copyright() {
 		return copyright_;
@@ -29,10 +28,6 @@ namespace XYO::QuantumScript::Extension::SHA512::Copyright {
 
 	const char *contact() {
 		return contact_;
-	};
-
-	const char *fullCopyright() {
-		return fullCopyright_;
 	};
 
 };
