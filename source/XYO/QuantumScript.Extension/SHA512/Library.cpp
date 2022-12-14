@@ -59,7 +59,7 @@ namespace XYO::QuantumScript::Extension::SHA512 {
 		executive->compileStringX("var SHA512={};");
 		executive->setFunction2("SHA512.hash(str)", hash);
 		executive->setFunction2("SHA512.hashToBuffer(str)", hashToBuffer);
-		executive->setFunction2("SHA256.fileHash(filename)", fileHash);
+		executive->setFunction2("SHA512.fileHash(filename)", fileHash);
 	};
 
 };
