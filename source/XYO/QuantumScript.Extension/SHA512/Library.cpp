@@ -30,6 +30,17 @@ namespace XYO::QuantumScript::Extension::SHA512 {
 		return retV;
 	};
 
+	static TPointer<Variable> fileHash(VariableFunction *function, Variable *this_, VariableArray *arguments) {
+#ifdef QUANTUM_SCRIPT_DEBUG_RUNTIME
+		printf("- sha512-file-hash\n");
+#endif
+		String retVal;
+		if(XYO::Cryptography::Util::fileHashSHA512((arguments->index(0))->toString(),retVal)){
+			return VariableString::newVariable(retVal);
+		};
+		return Context::getValueUndefined();
+	};
+
 	void registerInternalExtension(Executive *executive) {
 		executive->registerInternalExtension("SHA512", initExecutive);
 	};
@@ -48,6 +59,7 @@ namespace XYO::QuantumScript::Extension::SHA512 {
 		executive->compileStringX("var SHA512={};");
 		executive->setFunction2("SHA512.hash(str)", hash);
 		executive->setFunction2("SHA512.hashToBuffer(str)", hashToBuffer);
+		executive->setFunction2("SHA256.fileHash(filename)", fileHash);
 	};
 
 };
