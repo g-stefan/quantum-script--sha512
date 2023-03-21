@@ -14,19 +14,19 @@ namespace XYO::QuantumScript::Extension::SHA512::Copyright {
 	static const char *company_ = XYO_QUANTUMSCRIPT_EXTENSION_SHA512_COMPANY;
 	static const char *contact_ = XYO_QUANTUMSCRIPT_EXTENSION_SHA512_CONTACT;
 
-	const char *copyright() {
+	std::string copyright() {
 		return copyright_;
 	};
 
-	const char *publisher() {
+	std::string publisher() {
 		return publisher_;
 	};
 
-	const char *company() {
+	std::string company() {
 		return company_;
 	};
 
-	const char *contact() {
+	std::string contact() {
 		return contact_;
 	};
 
