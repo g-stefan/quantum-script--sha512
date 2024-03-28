@@ -64,7 +64,7 @@ namespace XYO::QuantumScript::Extension::SHA512 {
 
 };
 
-#ifdef XYO_COMPILE_DYNAMIC_LIBRARY
+#ifdef XYO_PLATFORM_COMPILE_DYNAMIC_LIBRARY
 extern "C" XYO_QUANTUMSCRIPT_EXTENSION_SHA512_EXPORT void quantumScriptExtension(XYO::QuantumScript::Executive *executive, void *extensionId) {
 	XYO::QuantumScript::Extension::SHA512::initExecutive(executive, extensionId);
 };

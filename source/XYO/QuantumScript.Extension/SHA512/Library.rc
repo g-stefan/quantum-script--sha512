@@ -8,4 +8,4 @@
 #include <XYO/QuantumScript.Extension/SHA512/Copyright.rh>
 #include <XYO/QuantumScript.Extension/SHA512/Version.rh>
 
-XYO_APPLICATION_VERSION_INFO(XYO_QUANTUMSCRIPT_EXTENSION_SHA512,"quantum-script--sha512.dll","Quantum Script Extension SHA512")
+XYO_PLATFORM_VERSION_INFO(XYO_QUANTUMSCRIPT_EXTENSION_SHA512,"quantum-script--sha512.dll","Quantum Script Extension SHA512")
