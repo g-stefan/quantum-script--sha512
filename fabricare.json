@@ -1,5 +1,6 @@
 {
 	"solution": {
+		"namespace" : "xyo",
 		"name" : "quantum-script--sha512",
 		"type" : "xyo-cpp",
 		"projects": [
@@ -42,6 +43,6 @@
 					"quantum-script--sha512"
 				]
 			}
-		],
+		]
 	}
 }
